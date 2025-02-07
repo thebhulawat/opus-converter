@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "opus-converter"
+version = "0.1.0"
+description = "Server to convert Opus audio to WAV"
+authors = ["Your Name <your.email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+flask = "^3.0.0"
+opuslib = "^3.0.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
